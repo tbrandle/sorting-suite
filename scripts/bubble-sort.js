@@ -1,6 +1,5 @@
 
-let newArray = [5, 4, 3, 2, 1]
-
+let newArray = [4, 1, 5, 3, 2]
 
 function sortBubble(array) {
   for (let i = 0; i < array.length -1 ; i++) {
@@ -13,7 +12,5 @@ function sortBubble(array) {
   }
   return array;
 }
-
-console.log(sortBubble(newArray))
 
 module.exports = sortBubble;
